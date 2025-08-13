@@ -1,5 +1,5 @@
 # Project Overview
-This notebook analyzes simulated customer behavior to determine whether giving more personalized product recommendations leads to higher customer spending, using linear regression. It also calculates the optimal number of recommendations by identifying the point of diminishing returns.
+This project analyzes simulated customer behavior to determine whether giving more personalized product recommendations leads to higher customer spending, using linear regression. It also calculates the optimal number of recommendations by identifying the point of diminishing returns.
 
 # Background 
 Company A is a retailer offering both grocery and non-grocery products through a single loyalty app. The app provides customers with personalized product recommendations based on their browsing and purchase history to drive engagement and sales.
