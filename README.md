@@ -24,9 +24,9 @@ The dataset contains simulated customer-level data from a personalized recommend
    - One Hot Encoding categorical features
    - Standard Scaling numerical features
 2. **Linear Regression** (statsmodels.OLS for statistical insights) 
-- Apply Lasso for feature selection (remove zero coefficient features)
-- Check VIF Scores to check and drop multicollinear features
-- Add intercept and squared term for number of recommendation capture nonlinear effects 
+  - Apply Lasso for feature selection (remove zero coefficient features)
+  - Check VIF Scores to check and drop multicollinear features
+  - Add intercept and squared term for number of recommendation capture nonlinear effects 
 3. **Model evaluation** using (R-Squared, P values):
 
 # Conclusion 
@@ -38,4 +38,5 @@ Based on the results:
 
 **Final Recommendation** 
 While increasing the number of personalized offers does lead to higher spending, the return diminishes after 3. 
+
 Therefore, given the additional cost and effort required to generate more recommendations, Company A should **limit recommendations to 3** and instead **focus on improving the relevancy of recommendations**, as relevancy had biggest influence in total spending.
